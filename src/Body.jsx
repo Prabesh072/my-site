@@ -7,7 +7,7 @@ import LI1 from '../src/assets/logos/linkedin.svg';
 
 const Body = () => {
     return (
-        <div className="container mt-5">
+        <div className="container pt-5 pb-5">
             <span>
                 <div className="card-deck"
                     style={{
@@ -29,12 +29,12 @@ const Body = () => {
                                 gap: "20px"
                             }}>
                             <div>
-                                <h4 className="card-title" style={{ textAlign: 'left' }}>Introduction</h4>
-                                <p>Name: Prabesh Aryal</p>
-                                <p>DOB: 2001-12-02</p>
-                                <p>Studying at: Advanced College of Engineering and Management</p>
-                                <p>Residing in: Ratopul</p>
-                                <p>Hobbies: Sleeping, Watching Movies and Animes</p>
+                                <h4 className="card-title pb-2" style={{ textAlign: 'start' }}>Introduction</h4>
+                                <p><strong>Name:</strong> Prabesh Aryal</p>
+                                <p><strong>DOB: </strong>2001-12-02</p>
+                                <p><strong>Studying at:</strong> Advanced College of Engineering and Management</p>
+                                <p><strong>Residing in:</strong> Ratopul</p>
+                                <p><strong>Hobbies:</strong> Sleeping, Watching Movies and Animes</p>
                             </div>
                             <img src={prabesh1} className="card-img-top" alt="My-Photo" style={{ width: "400px", borderRadius: "5px" }} />
                         </div>
@@ -48,9 +48,9 @@ const Body = () => {
                         <div className="card-body">
                             <h4>Educational Background</h4>
                             <div style={{ marginTop: "15px" }}>
-                                <p>SEE: Adarsh Secondary School, Nepalgunj</p>
-                                <p>+2:  Kathmandu Model College, Baghbazar-Kathmandu</p>
-                                <p>Bachelors: Advanced College of Engineering and Management, Balkhu-Kathmandu</p>
+                                <p><strong>SEE:</strong> Adarsh Secondary School, Nepalgunj</p>
+                                <p><strong>+2:</strong>  Kathmandu Model College, Baghbazar-Kathmandu</p>
+                                <p><strong>Bachelors:</strong> Advanced College of Engineering and Management, Balkhu-Kathmandu</p>
                             </div>
                         </div>
                     </div>
@@ -65,16 +65,14 @@ const Body = () => {
                             <div style={{ marginTop: "15px" }}>
                                 <p>ReactJS</p>
                                 <p>WordPress</p>
+                                <p>Google Digital Marketing</p>
+
                             </div>
                         </div>
                     </div>
 
                     {/* Card 4 - Social Media Icons */}
-                    <div className="card"
-                        style={{
-                            marginBottom: "80px",
-
-                        }}>
+                    <div className="card">
                         <div className="card-body">
                             <h5 className="card-title" id='contact'>Contact Me</h5>
                             <div className="d-flex justify-content-between">

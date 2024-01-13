@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer style={{ backgroundColor: '#f4f4f4', padding: '20px', textAlign: 'center', marginTop: '20px' }}>
-    <p>&copy; 2024 Prabesh Aryal. All rights reserved.</p>
-    <p>Email: prabesh072@gmail.com</p>
+  <footer className='py-2 text-light bg-dark' style={{fontSize:"14px", backgroundColor: '#f4f4f4', textAlign: 'center',}}>
+    <p style={{margin:"0"}}>&copy; 2024 Prabesh Aryal. All rights reserved.</p>
+    <p style={{margin:"0"}}>Email: prabesh072@gmail.com</p>
   </footer>
 );
 

@@ -2,7 +2,7 @@ import React from 'react'
 import Body from './Body'
 const App = () => {
   return (
-    <div>
+    <div style={{backgroundColor:"#dde7f0"}}>
       <Body/>
     </div>
   )
